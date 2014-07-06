@@ -1,6 +1,6 @@
 print("hello world")
 
-x = nnorm(100)
-pdf("test.pdf")
+x = rnorm(100)
+#pdf("test.pdf")
 plot(x)
-dev.off()
+#dev.off()
